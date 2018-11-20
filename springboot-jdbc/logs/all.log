@@ -1,0 +1,158 @@
+2018-11-20 09:53:45,229  INFO SpringbootJdbcApplication:48 - Starting SpringbootJdbcApplication on GJYRP8H2E with PID 4332 (C:\workerFolder\myworkspace\eclipse-workspace\springboot-jdbc\target\classes started by 502774066 in C:\workerFolder\myworkspace\eclipse-workspace\springboot-jdbc)
+2018-11-20 09:53:45,336  INFO SpringbootJdbcApplication:666 - No active profile set, falling back to default profiles: default
+2018-11-20 09:53:45,493  INFO AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5226fcb4: startup date [Tue Nov 20 09:53:45 CST 2018]; root of context hierarchy
+2018-11-20 09:53:45,637  INFO Version:17 - HV000001: Hibernate Validator 5.2.2.Final
+2018-11-20 09:53:47,399  INFO DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2018-11-20 09:53:47,838  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8bad16d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-20 09:53:48,617  INFO TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2018-11-20 09:53:48,629  INFO StandardService:180 - Starting service Tomcat
+2018-11-20 09:53:48,631  INFO StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2018-11-20 09:53:48,839  INFO [/]:180 - Initializing Spring embedded WebApplicationContext
+2018-11-20 09:53:48,840  INFO ContextLoader:272 - Root WebApplicationContext: initialization completed in 3351 ms
+2018-11-20 09:53:49,662  INFO ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-11-20 09:53:49,667  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 09:53:49,668  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 09:53:49,669  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-20 09:53:49,669  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 09:53:50,318  INFO RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5226fcb4: startup date [Tue Nov 20 09:53:45 CST 2018]; root of context hierarchy
+2018-11-20 09:53:50,399  INFO RequestMappingHandlerMapping:527 - Mapped "{[/index]}" onto public java.lang.String com.jm.springbootjdbc.controller.UserController.index(org.springframework.ui.ModelMap)
+2018-11-20 09:53:50,400  INFO RequestMappingHandlerMapping:527 - Mapped "{[/hello]}" onto public java.lang.String com.jm.springbootjdbc.controller.UserController.hello()
+2018-11-20 09:53:50,402  INFO RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-20 09:53:50,402  INFO RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-20 09:53:50,459  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-20 09:53:50,460  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-20 09:53:50,510  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-20 09:53:50,728  INFO FreeMarkerConfigurer:127 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-11-20 09:53:50,846  INFO OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2018-11-20 09:53:50,900  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-11-20 09:53:50,934  INFO Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 09:53:50,942  INFO Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 09:53:50,989  INFO NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-11-20 09:53:51,021  INFO TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2018-11-20 09:53:51,027  INFO SpringbootJdbcApplication:57 - Started SpringbootJdbcApplication in 6.42 seconds (JVM running for 7.928)
+2018-11-20 09:54:08,503  INFO [/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-20 09:54:08,503  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-20 09:54:08,564  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+2018-11-20 09:54:08,621  INFO WebLogAspect:53 - URL: /hello
+2018-11-20 09:54:08,621  INFO WebLogAspect:54 - Http_method: GET
+2018-11-20 09:54:08,623  INFO WebLogAspect:55 - IP: 0:0:0:0:0:0:0:1
+2018-11-20 09:54:08,628  INFO WebLogAspect:56 - class_method: com.jm.springbootjdbc.controller.UserController.hello
+2018-11-20 09:54:08,629  INFO WebLogAspect:57 - args: []
+2018-11-20 09:54:08,653 ERROR [dispatcherServlet]:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+java.lang.ArithmeticException: / by zero
+	at com.jm.springbootjdbc.controller.UserController.hello(UserController.java:36)
+	at com.jm.springbootjdbc.controller.UserController$$FastClassBySpringCGLIB$$ebad7ae3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at com.jm.springbootjdbc.controller.UserController$$EnhancerBySpringCGLIB$$6eebc2fa.hello(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:222)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:814)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:737)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:969)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:860)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:845)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 09:54:18,535  INFO AnnotationConfigEmbeddedWebApplicationContext:960 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5226fcb4: startup date [Tue Nov 20 09:53:45 CST 2018]; root of context hierarchy
+2018-11-20 09:54:18,566  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2018-11-20 09:54:20,805  INFO SpringbootJdbcApplication:48 - Starting SpringbootJdbcApplication on GJYRP8H2E with PID 4332 (C:\workerFolder\myworkspace\eclipse-workspace\springboot-jdbc\target\classes started by 502774066 in C:\workerFolder\myworkspace\eclipse-workspace\springboot-jdbc)
+2018-11-20 09:54:20,807  INFO SpringbootJdbcApplication:666 - No active profile set, falling back to default profiles: default
+2018-11-20 09:54:20,854  INFO AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7dbf9824: startup date [Tue Nov 20 09:54:20 CST 2018]; root of context hierarchy
+2018-11-20 09:54:26,525  INFO DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2018-11-20 09:54:26,686  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8bad16d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-20 09:54:26,954  INFO TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2018-11-20 09:54:26,955  INFO StandardService:180 - Starting service Tomcat
+2018-11-20 09:54:26,956  INFO StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2018-11-20 09:54:27,239  INFO [/]:180 - Initializing Spring embedded WebApplicationContext
+2018-11-20 09:54:27,242  INFO ContextLoader:272 - Root WebApplicationContext: initialization completed in 6388 ms
+2018-11-20 09:54:27,995  INFO ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-11-20 09:54:27,996  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 09:54:27,997  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 09:54:27,998  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-20 09:54:27,998  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 09:54:28,605  INFO RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7dbf9824: startup date [Tue Nov 20 09:54:20 CST 2018]; root of context hierarchy
+2018-11-20 09:54:28,637  INFO RequestMappingHandlerMapping:527 - Mapped "{[/index]}" onto public java.lang.String com.jm.springbootjdbc.controller.UserController.index(org.springframework.ui.ModelMap)
+2018-11-20 09:54:28,638  INFO RequestMappingHandlerMapping:527 - Mapped "{[/hello]}" onto public java.lang.String com.jm.springbootjdbc.controller.UserController.hello()
+2018-11-20 09:54:28,641  INFO RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-20 09:54:28,642  INFO RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-20 09:54:28,693  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-20 09:54:28,694  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-20 09:54:28,728  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-20 09:54:28,895  INFO FreeMarkerConfigurer:127 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-11-20 09:54:28,978  INFO OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2018-11-20 09:54:29,037  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-11-20 09:54:29,049  INFO Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 09:54:29,051  INFO Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 09:54:29,062  INFO NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-11-20 09:54:29,081  INFO TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2018-11-20 09:54:29,083  INFO SpringbootJdbcApplication:57 - Started SpringbootJdbcApplication in 8.655 seconds (JVM running for 45.949)
+2018-11-20 09:54:31,298  INFO [/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-20 09:54:31,299  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-20 09:54:31,309  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+2018-11-20 09:54:31,312  INFO WebLogAspect:53 - URL: /hello
+2018-11-20 09:54:31,313  INFO WebLogAspect:54 - Http_method: GET
+2018-11-20 09:54:31,314  INFO WebLogAspect:55 - IP: 0:0:0:0:0:0:0:1
+2018-11-20 09:54:31,314  INFO WebLogAspect:56 - class_method: com.jm.springbootjdbc.controller.UserController.hello
+2018-11-20 09:54:31,316  INFO WebLogAspect:57 - args: []
+2018-11-20 09:54:31,321  INFO WebLogAspect:63 - response: Hello World
+2018-11-20 09:54:31,321  INFO WebLogAspect:64 - spend time: 9
+2018-11-20 09:54:41,370  INFO WebLogAspect:53 - URL: /index
+2018-11-20 09:54:41,371  INFO WebLogAspect:54 - Http_method: GET
+2018-11-20 09:54:41,372  INFO WebLogAspect:55 - IP: 0:0:0:0:0:0:0:1
+2018-11-20 09:54:41,372  INFO WebLogAspect:56 - class_method: com.jm.springbootjdbc.controller.UserController.index
+2018-11-20 09:54:41,373  INFO WebLogAspect:57 - args: [{}]
+2018-11-20 09:54:41,374  INFO WebLogAspect:63 - response: index
+2018-11-20 09:54:41,375  INFO WebLogAspect:64 - spend time: 5
