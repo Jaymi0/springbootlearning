@@ -1,0 +1,14 @@
+server:
+  port: 8888
+  context-path: /uaa
+logging:
+  level:
+    org.springframework.security: DEBUG
+spring:
+  application:
+    name: oauth-server
+security:
+  oauth2:
+    resource:
+      service-id: ${PREFIX}resource
+      filter-order: 3
