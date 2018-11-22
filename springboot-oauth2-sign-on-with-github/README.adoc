@@ -1,0 +1,20 @@
+Oauth2 test
+
+该案例是Oauth2客户端案例 主要测试功能点是
+
+使用授权码从Github服务器获取访问令牌。然后使用访问令牌向GitHub询问一些个人详细信息
+
+此时的GitHub充当资源服务器，解码访问令牌并检查授予应用程序访问用户详细信息的权限。这一过程一旦成功， 应用程序就会将用户的详细信息插入到spring security上下文中，便于进行身份验证。
+
+实际项目里我们不可能一进入项目就去进行权限认证  比如登录主页login  我们需要`排除权限认证`。
+此时，需要在服务器端增加配置：
+
+----
+@Override
+protected void configure(HttpSecurity http) throws Exception {
+	http.antMatcher("/**").authorizeRequests().antMatchers("/", "/login**", "/webjars/**", 	"/error**").permitAll().anyRequest().authenticated();
+}
+----
+
+==Add a Logout Button
+
