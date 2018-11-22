@@ -27,7 +27,7 @@ public class ArraySortUtil implements Runnable {
 	}
 	
 	public static void main(String[] args) {
-		int[] nums = {11,44,22,55,33,77,99};
+		int[] nums = {88,1,44,22,55,33,77,99};
 		for (int i = 0; i < nums.length; i++) {
 			new Thread(new ArraySortUtil(nums[i])).start();
 		}
