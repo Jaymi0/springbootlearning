@@ -26,6 +26,13 @@ import org.springframework.web.filter.CompositeFilter;
 
 import com.jm.oauth2.utils.ClientResources;
 
+/**
+ * 
+ * @ClassName: SpringbootOauth2SignOnWithGithubApplication 
+ * @Description: 测试spring boot oauth2
+ * @author: 502774066
+ * @date: Nov 22, 2018 5:31:45 PM
+ */
 @SpringBootApplication
 @EnableOAuth2Client
 public class SpringbootOauth2SignOnWithGithubApplication extends WebSecurityConfigurerAdapter {
